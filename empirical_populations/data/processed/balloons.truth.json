@@ -1,0 +1,25 @@
+{
+  "N": 20,
+  "clutter": [
+    4,
+    8
+  ],
+  "core_mask": 12,
+  "core_target_edges": [
+    4,
+    8
+  ],
+  "family": [
+    12
+  ],
+  "family_target_edges": [
+    4,
+    8
+  ],
+  "max_atom_mass": 0.1,
+  "median_atom_mass": 0.05,
+  "min_atom_mass": 0.05,
+  "p": 4,
+  "slug": "balloons",
+  "support": 16
+}

@@ -1,0 +1,62 @@
+{
+  "decision_column": 0,
+  "discretised_columns": [],
+  "dropped_columns": [],
+  "missing_token_counts": {
+    "0": 0,
+    "1": 2,
+    "2": 3,
+    "3": 8,
+    "4": 8,
+    "5": 5,
+    "6": 0
+  },
+  "n_classes": 2,
+  "original_N": 15,
+  "original_p": 6,
+  "processed_N": 15,
+  "processed_p": 6,
+  "slug": "shuttle-landing-control",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/shuttle-landing-control/shuttle-landing-control.data"
+  ],
+  "value_maps": {
+    "a0": {
+      "*": 0,
+      "1": 1,
+      "2": 2
+    },
+    "a1": {
+      "*": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "a2": {
+      "*": 0,
+      "1": 1,
+      "2": 2
+    },
+    "a3": {
+      "*": 0,
+      "1": 1,
+      "2": 2
+    },
+    "a4": {
+      "*": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "a5": {
+      "1": 0,
+      "2": 1
+    },
+    "y": {
+      "1": 0,
+      "2": 1
+    }
+  }
+}

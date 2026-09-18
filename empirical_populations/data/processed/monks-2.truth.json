@@ -1,0 +1,37 @@
+{
+  "N": 601,
+  "clutter": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "core_mask": 63,
+  "core_target_edges": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "family": [
+    63
+  ],
+  "family_target_edges": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "max_atom_mass": 0.0033277870216306157,
+  "median_atom_mass": 0.0016638935108153079,
+  "min_atom_mass": 0.0016638935108153079,
+  "p": 6,
+  "slug": "monks-2",
+  "support": 432
+}

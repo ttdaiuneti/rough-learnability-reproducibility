@@ -1,0 +1,48 @@
+{
+  "decision_column": 4,
+  "discretised_columns": [],
+  "dropped_columns": [],
+  "missing_token_counts": {},
+  "n_classes": 2,
+  "original_N": 20,
+  "original_p": 4,
+  "processed_N": 20,
+  "processed_p": 4,
+  "slug": "balloons",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/balloons/adult+stretch.data"
+  ],
+  "structure_probe": {
+    "core_mask": 12,
+    "core_size": 2,
+    "max_reduct": 2,
+    "median_reduct": 2.0,
+    "min_reduct": 2,
+    "n_clutter": 2,
+    "n_edges": 12,
+    "n_reducts": 1,
+    "support": 16
+  },
+  "value_maps": {
+    "a0": {
+      "PURPLE": 0,
+      "YELLOW": 1
+    },
+    "a1": {
+      "LARGE": 0,
+      "SMALL": 1
+    },
+    "a2": {
+      "DIP": 0,
+      "STRETCH": 1
+    },
+    "a3": {
+      "ADULT": 0,
+      "CHILD": 1
+    },
+    "y": {
+      "F": 0,
+      "T": 1
+    }
+  }
+}

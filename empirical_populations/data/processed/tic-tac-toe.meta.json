@@ -1,0 +1,77 @@
+{
+  "decision_column": 9,
+  "discretised_columns": [],
+  "dropped_columns": [],
+  "missing_token_counts": {},
+  "n_classes": 2,
+  "original_N": 958,
+  "original_p": 9,
+  "processed_N": 958,
+  "processed_p": 9,
+  "slug": "tic-tac-toe",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/tic-tac-toe/tic-tac-toe.data"
+  ],
+  "structure_probe": {
+    "core_mask": 0,
+    "core_size": 0,
+    "max_reduct": 8,
+    "median_reduct": 8.0,
+    "min_reduct": 8,
+    "n_clutter": 36,
+    "n_edges": 501,
+    "n_reducts": 9,
+    "support": 958
+  },
+  "value_maps": {
+    "a0": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "a1": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "a2": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "a3": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "a4": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "a5": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "a6": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "a7": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "a8": {
+      "b": 0,
+      "o": 1,
+      "x": 2
+    },
+    "y": {
+      "negative": 0,
+      "positive": 1
+    }
+  }
+}

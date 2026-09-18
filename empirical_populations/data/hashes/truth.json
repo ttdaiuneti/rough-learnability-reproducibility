@@ -1,0 +1,16 @@
+{
+  "balance-scale.csv": "bf6142278ddf9c36057d4b5f988f35db212cef470339bee0f39fbf1ed027908a",
+  "balance-scale.truth.json": "a7ffb6c8b0c74cbb95d8b3b7b7210bd9fe3060e2900e1f8a1438567177576e30",
+  "balloons.csv": "3fd15be1a0440590961f466867ae660de8267d507696d39423eae6c989845a35",
+  "balloons.truth.json": "f49eaa81284eacde63074b30850a5cb5c1b0ebe0474ce0de93861404d052ce7c",
+  "car.csv": "a8b0a0cc2a2bea1b8a87c18157a1838f9efeca7881e07fa5847fe2a34bc4bb11",
+  "car.truth.json": "f2fa503a33566ca7df4646b0b565ab0730c18d5bdc450c14c8f7f98102c59fdd",
+  "lenses.csv": "d26d7a76a303fdde888067bd3a8beccab690694dd4ed2c42eae3b78c006a9a45",
+  "lenses.truth.json": "5a911ac213cca3577de671304d0b9eaeb202550118e7d0e8e5e0ec0d19d24fbb",
+  "monks-1.csv": "1e938bf523f5a5a2d7e799d49e8210fd54fad3f483651fc3124a5d18dfe7460a",
+  "monks-1.truth.json": "0361e704df825b6edcf1a5d22e0c89bafe9f40706f489dc75ea9c549ecc971dc",
+  "monks-2.csv": "d257d156479781e7663fae96048325f8bd731bcf6ff2bb4e6ea14ebbd67c0765",
+  "monks-2.truth.json": "8282e0c06af7a4a3dcca7d833e74889872d9c41ce44c19b05261e1b10220ee36",
+  "tic-tac-toe.csv": "aae5e08a060290031533735db3b77d041896875cc091d950ba09c75483eb6420",
+  "tic-tac-toe.truth.json": "a2d446ba8214005313e30e08c76f9dc23ab2cae545482bde8f7da515890d485c"
+}

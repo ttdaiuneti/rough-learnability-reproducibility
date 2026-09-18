@@ -1,0 +1,64 @@
+{
+  "decision_column": 0,
+  "discretised_columns": [],
+  "dropped_columns": [
+    7
+  ],
+  "missing_token_counts": {},
+  "n_classes": 2,
+  "original_N": 601,
+  "original_p": 7,
+  "processed_N": 601,
+  "processed_p": 6,
+  "slug": "monks-2",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/monks-problems/monks-2.train",
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/monks-problems/monks-2.test"
+  ],
+  "structure_probe": {
+    "core_mask": 63,
+    "core_size": 6,
+    "max_reduct": 6,
+    "median_reduct": 6.0,
+    "min_reduct": 6,
+    "n_clutter": 6,
+    "n_edges": 63,
+    "n_reducts": 1,
+    "support": 432
+  },
+  "value_maps": {
+    "a0": {
+      "1": 0,
+      "2": 1,
+      "3": 2
+    },
+    "a1": {
+      "1": 0,
+      "2": 1,
+      "3": 2
+    },
+    "a2": {
+      "1": 0,
+      "2": 1
+    },
+    "a3": {
+      "1": 0,
+      "2": 1,
+      "3": 2
+    },
+    "a4": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+    },
+    "a5": {
+      "1": 0,
+      "2": 1
+    },
+    "y": {
+      "0": 0,
+      "1": 1
+    }
+  }
+}

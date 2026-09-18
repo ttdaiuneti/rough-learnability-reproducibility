@@ -1,0 +1,15 @@
+dataset,group,target,n_max,n_point,n_certified,censored_point,censored_certified,reps
+balance-scale,U,core,3125,100,100,False,False,100000
+balance-scale,U,family,3125,100,100,False,False,100000
+balloons,U,core,100,20,20,False,False,100000
+balloons,U,family,100,20,20,False,False,100000
+car,U,core,8640,346,346,False,False,100000
+car,U,family,8640,346,346,False,False,100000
+lenses,U,core,120,48,48,False,False,100000
+lenses,U,family,120,48,48,False,False,100000
+monks-1,U,core,2780,100,100,False,False,100000
+monks-1,U,family,2780,100,100,False,False,100000
+monks-2,U,core,3005,100,100,False,False,100000
+monks-2,U,family,3005,100,100,False,False,100000
+tic-tac-toe,M,core,4790,1,1,False,False,100000
+tic-tac-toe,M,family,4790,1916,1916,False,False,100000

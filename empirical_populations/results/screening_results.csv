@@ -1,0 +1,21 @@
+dataset,source,original_N,processed_N,original_p,processed_p,classes,preprocessing,a2_status,a2_conflict_vectors,a2_conflict_rows,feasibility,support,bichromatic_pairs,truth_seconds,status,exclusion_reason
+lenses,https://archive.ics.uci.edu/ml/machine-learning-databases/lenses/lenses.data,24,24,5,4,3,fixed spec,OK,0.0,0.0,OK,24.0,155.0,0.0,ACCEPTED,
+balloons,https://archive.ics.uci.edu/ml/machine-learning-databases/balloons/adult+stretch.data,20,20,4,4,2,fixed spec,OK,0.0,0.0,OK,16.0,48.0,0.0,ACCEPTED,
+balance-scale,https://archive.ics.uci.edu/ml/machine-learning-databases/balance-scale/balance-scale.data,625,625,4,4,3,fixed spec,OK,0.0,0.0,OK,625.0,111168.0,0.004,ACCEPTED,
+hayes-roth,https://archive.ics.uci.edu/ml/machine-learning-databases/hayes-roth/hayes-roth.data,132,132,5,4,3,fixed spec,CONFLICT,9.0,30.0,,78.0,,,EXCLUDED,EXCLUDED_REALISABILITY_CONFLICT
+tae,https://archive.ics.uci.edu/ml/machine-learning-databases/tae/tae.data,151,151,5,5,3,fixed spec,CONFLICT,13.0,45.0,,100.0,,,EXCLUDED,EXCLUDED_REALISABILITY_CONFLICT
+shuttle-landing-control,https://archive.ics.uci.edu/ml/machine-learning-databases/shuttle-landing-control/shuttle-landing-control.data,15,15,6,6,2,fixed spec,,,,,,,,EXCLUDED,EXCLUDED_TOO_FEW_ROWS
+car,https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data,1728,1728,6,6,4,fixed spec,OK,0.0,0.0,OK,1728.0,682721.0,0.027,ACCEPTED,
+monks-1,https://archive.ics.uci.edu/ml/machine-learning-databases/monks-problems/monks-1.train,556,556,7,6,2,fixed spec,OK,0.0,0.0,OK,432.0,46656.0,0.002,ACCEPTED,
+monks-2,https://archive.ics.uci.edu/ml/machine-learning-databases/monks-problems/monks-2.train,601,601,7,6,2,fixed spec,OK,0.0,0.0,OK,432.0,41180.0,0.002,ACCEPTED,
+monks-3,https://archive.ics.uci.edu/ml/machine-learning-databases/monks-problems/monks-3.train,554,554,7,6,2,fixed spec,CONFLICT,6.0,12.0,,438.0,,,EXCLUDED,EXCLUDED_REALISABILITY_CONFLICT
+nursery,https://archive.ics.uci.edu/ml/machine-learning-databases/nursery/nursery.data,12960,12960,8,8,5,fixed spec,OK,0.0,0.0,OVER_BUDGET,12960.0,57319460.0,,EXCLUDED,EXCLUDED_EXACT_FAMILY_INFEASIBLE
+post-operative,https://archive.ics.uci.edu/ml/machine-learning-databases/postoperative-patient-data/post-operative.data,90,90,8,8,3,fixed spec,CONFLICT,6.0,14.0,,80.0,,,EXCLUDED,EXCLUDED_REALISABILITY_CONFLICT
+breast-cancer,https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer/breast-cancer.data,286,286,9,9,2,fixed spec,CONFLICT,6.0,13.0,,272.0,,,EXCLUDED,EXCLUDED_REALISABILITY_CONFLICT
+tic-tac-toe,https://archive.ics.uci.edu/ml/machine-learning-databases/tic-tac-toe/tic-tac-toe.data,958,958,9,9,2,fixed spec,OK,0.0,0.0,OK,958.0,207832.0,0.009,ACCEPTED,
+solar-flare,https://archive.ics.uci.edu/ml/machine-learning-databases/solar-flare/flare.data2,1066,1066,12,10,8,fixed spec,CONFLICT,74.0,709.0,,350.0,,,EXCLUDED,EXCLUDED_REALISABILITY_CONFLICT
+zoo,https://archive.ics.uci.edu/ml/machine-learning-databases/zoo/zoo.data,101,101,17,16,7,fixed spec,,,,,,,,EXCLUDED,EXCLUDED_P_BUDGET
+house-votes-84,https://archive.ics.uci.edu/ml/machine-learning-databases/voting-records/house-votes-84.data,435,435,16,16,2,fixed spec,,,,,,,,EXCLUDED,EXCLUDED_P_BUDGET
+primary-tumor,https://archive.ics.uci.edu/ml/machine-learning-databases/primary-tumor/primary-tumor.data,339,339,17,17,21,fixed spec,,,,,,,,EXCLUDED,EXCLUDED_P_BUDGET
+lymphography,https://archive.ics.uci.edu/ml/machine-learning-databases/lymphography/lymphography.data,148,148,18,18,4,fixed spec,,,,,,,,EXCLUDED,EXCLUDED_P_BUDGET
+spect,https://archive.ics.uci.edu/ml/machine-learning-databases/spect/SPECT.train,267,267,22,22,2,fixed spec,,,,,,,,EXCLUDED,EXCLUDED_P_BUDGET

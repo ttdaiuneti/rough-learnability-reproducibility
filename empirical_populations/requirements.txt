@@ -1,0 +1,5 @@
+# Standard scientific Python only; no rough-set package is used,
+# every structural computation in exact_rough.py is exact enumeration over attribute bitmasks.
+# Versions are those the reported runs were produced with (python 3.9.6, macOS arm64).
+numpy>=1.24,<3
+pandas>=2.0,<3

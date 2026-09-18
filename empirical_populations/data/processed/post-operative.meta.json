@@ -1,0 +1,122 @@
+{
+  "decision_column": 8,
+  "discretised_columns": [],
+  "dropped_columns": [],
+  "missing_token_counts": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 3,
+    "8": 0
+  },
+  "n_classes": 3,
+  "original_N": 90,
+  "original_p": 8,
+  "processed_N": 90,
+  "processed_p": 8,
+  "realisability_examples": [
+    [
+      [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      [
+        2,
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  ],
+  "slug": "post-operative",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/postoperative-patient-data/post-operative.data"
+  ],
+  "value_maps": {
+    "a0": {
+      "high": 0,
+      "low": 1,
+      "mid": 2
+    },
+    "a1": {
+      "high": 0,
+      "low": 1,
+      "mid": 2
+    },
+    "a2": {
+      "excellent": 0,
+      "good": 1
+    },
+    "a3": {
+      "high": 0,
+      "low": 1,
+      "mid": 2
+    },
+    "a4": {
+      "stable": 0,
+      "unstable": 1
+    },
+    "a5": {
+      "mod-stable": 0,
+      "stable": 1,
+      "unstable": 2
+    },
+    "a6": {
+      "mod-stable": 0,
+      "stable": 1,
+      "unstable": 2
+    },
+    "a7": {
+      "05": 0,
+      "07": 1,
+      "10": 2,
+      "15": 3,
+      "?": 4
+    },
+    "y": {
+      "A": 0,
+      "I": 1,
+      "S": 2
+    }
+  }
+}

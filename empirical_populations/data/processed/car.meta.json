@@ -1,0 +1,67 @@
+{
+  "decision_column": 6,
+  "discretised_columns": [],
+  "dropped_columns": [],
+  "missing_token_counts": {},
+  "n_classes": 4,
+  "original_N": 1728,
+  "original_p": 6,
+  "processed_N": 1728,
+  "processed_p": 6,
+  "slug": "car",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data"
+  ],
+  "structure_probe": {
+    "core_mask": 63,
+    "core_size": 6,
+    "max_reduct": 6,
+    "median_reduct": 6.0,
+    "min_reduct": 6,
+    "n_clutter": 6,
+    "n_edges": 63,
+    "n_reducts": 1,
+    "support": 1728
+  },
+  "value_maps": {
+    "a0": {
+      "high": 0,
+      "low": 1,
+      "med": 2,
+      "vhigh": 3
+    },
+    "a1": {
+      "high": 0,
+      "low": 1,
+      "med": 2,
+      "vhigh": 3
+    },
+    "a2": {
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5more": 3
+    },
+    "a3": {
+      "2": 0,
+      "4": 1,
+      "more": 2
+    },
+    "a4": {
+      "big": 0,
+      "med": 1,
+      "small": 2
+    },
+    "a5": {
+      "high": 0,
+      "low": 1,
+      "med": 2
+    },
+    "y": {
+      "acc": 0,
+      "good": 1,
+      "unacc": 2,
+      "vgood": 3
+    }
+  }
+}
