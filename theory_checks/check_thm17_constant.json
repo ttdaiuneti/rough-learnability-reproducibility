@@ -1,0 +1,6 @@
+{
+ "scope": "three binary attributes, binary labels, random supports of 2-4 atoms, random known sets S0 and floors (seed 7), every admissible support with each atom in turn carrying the residual mass, n = 1..3, both targets",
+ "checks": 11391,
+ "violations": 0,
+ "verdict": "PASS"
+}

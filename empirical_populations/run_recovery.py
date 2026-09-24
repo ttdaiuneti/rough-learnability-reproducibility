@@ -1,4 +1,4 @@
-"""IID sampling with replacement from each finite empirical population (Section 5.5).
+"""IID sampling with replacement from each finite empirical population (Section 5.2).
 
 Nothing here may change the recorded population truths: they are read from
 data/processed/<slug>.truth.json, which run_population_truth.py wrote and hashed.

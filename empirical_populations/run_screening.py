@@ -1,4 +1,4 @@
-"""Screening -- download, process, and gate the closed candidate list of UCI datasets (Section 5.5).
+"""Screening -- download, process, and gate the closed candidate list of UCI datasets (Section 5.2).
 
 Runs the closed candidate list below exactly once, in order. It computes NO recovery curve:
 the first sight of a recovery number is in run_recovery.py, two steps later.

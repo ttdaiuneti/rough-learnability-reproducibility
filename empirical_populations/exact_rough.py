@@ -1,4 +1,4 @@
-"""Exact Pawlak reduction structures for finite empirical populations (Section 5.5 of the paper).
+"""Exact Pawlak reduction structures for finite empirical populations (Section 5.2 of the paper).
 
 Everything is exact: no heuristic reduct search, no top-k, no random subset search, no
 single-reduct surrogate. Attribute subsets are bitmasks over `p <= 15` bits, so the
