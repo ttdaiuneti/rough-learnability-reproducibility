@@ -125,6 +125,17 @@ while prob_union(core_events, w, nc) > DELTA: nc += 1
 ex2['plugin_n_at_delta'] = dict(family=nf, core=nc)
 out['example2'] = ex2
 
+# curves for the figure of Example 2: exact plug-in errors and the bounds of Proposition 12
+import csv
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'example2_curves.csv'), 'w', newline='') as fh:
+    wr = csv.writer(fh)
+    wr.writerow(['n', 'family_lower', 'family_exact', 'family_upper', 'core_lower', 'core_exact', 'core_upper'])
+    for n in range(1, 61):
+        wr.writerow([n, float((1 - mu_fam) ** n), float(prob_union(fam_events, w, n)),
+                     float(sum((1 - sum(w[x] for x in K)) ** n for K in fam_events)),
+                     float((1 - mu_core) ** n), float(prob_union(core_events, w, n)),
+                     float(sum((1 - sum(w[x] for x in K)) ** n for K in core_events))])
+
 # Example 3: Theorem 14 on the same population
 e_big = [e for e in C if len(e) > 1][0]
 K = min(covers[e_big], key=lambda K: sum(w[x] for x in K))
