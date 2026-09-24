@@ -19,6 +19,7 @@ arithmetic wherever probabilities occur.
 | `check_family_upper.py` | `check_family_upper.json` | Family upper bound | the family estimator of Theorem 14 (6 484 supports, 12 968 mass assignments, 334 separating classes, 4 008 risk evaluations), deletion radii and the multiclass core formula |
 | `check_floor_class.py` | `check_floor_class.json` | Structural-zero classes | Theorem 17 and Corollary 18, and the error formulas of the Theorem 14 estimator |
 | `check_thm17_constant.py` | `check_thm17_constant.json` | Structural-zero classes | the constants $K_{\mathrm{CORE}} = 2p$ and $K_{\mathcal{R}} = 2\binom{p}{\lfloor p/2\rfloor}$ of Theorem 17(b): exact plug-in errors of the completed estimator against $K_\Psi (1-\nu_\Psi)^n$ (11 391 checks) |
+| `worked_examples.py` | `worked_examples.json` | Worked examples | every number stated in Examples 1-4 of Section 4 |
 | `check_revision_claims.py` | `check_revision_claims.json` | Supplementary sub-claims | the sub-claims listed in the last row of Table 5 |
 | `k4_e2_check.py` | `k4_results.json` | (Section 5.2) | on the seven accepted finite populations: every clutter edge of the six unique-reduct populations is a singleton, `tic-tac-toe` has an empty core, and its family radius $\mu_{fam} = 2/479$ with the comparison at $n = 1000$ quoted in Section 4.7 |
 
@@ -37,6 +38,7 @@ python3 check_family_upper.py
 python3 check_floor_class.py
 python3 check_revision_claims.py
 python3 check_thm17_constant.py
+python3 worked_examples.py
 ```
 
 Each script writes its output next to itself. The total run time is about ten minutes on a
