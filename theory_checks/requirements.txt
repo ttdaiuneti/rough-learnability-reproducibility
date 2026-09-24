@@ -1,0 +1,4 @@
+# Only k4_e2_check.py needs third-party packages; all other scripts use the Python standard library.
+# Versions are those the reported runs were produced with (python 3.9.6, macOS arm64).
+numpy>=1.24,<3
+networkx>=3.0,<4

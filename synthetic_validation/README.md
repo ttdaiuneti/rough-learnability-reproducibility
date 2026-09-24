@@ -13,8 +13,9 @@ Theorem 9.
 | `validation.py` | analytic identities, implementation identities, Monte Carlo tolerance rule |
 | `run_core_family_recovery.py` | Section 5.2: finite-sample recovery, Monte Carlo vs analytic |
 | `run_rare_event_mechanism.py` | Section 5.3: rare-atom waiting time and the structural transition |
-| `run_sample_complexity_bounds.py` | Section 5.4: deterministic sample-complexity separation (Table 2) |
-| `results/` | raw aggregate CSVs, as reported in the paper |
+| `run_sample_complexity_bounds.py` | Section 5.4: deterministic sample-complexity separation (Table 3) |
+| `results/` | raw aggregate CSVs, as reported in the paper, with their `SHA256SUMS` |
+| `protocol/experiment_protocol.md` | the experiment protocol (grids, seeds, repetition counts, tolerances, re-run rule), written before the runs |
 
 ## Run
 
@@ -34,3 +35,7 @@ reported numbers.
 
 Standard scientific Python only (numpy, pandas); no rough-set package is used or needed, every
 structural computation is exact enumeration in `rough_exact.py`.
+
+The protocol refers to the scripts by their development names: `run_e0.py` is
+`run_core_family_recovery.py` (Section 5.2), `run_e05.py` is `run_rare_event_mechanism.py`
+(Section 5.3), and `run_e1.py` is `run_sample_complexity_bounds.py` (Section 5.4).

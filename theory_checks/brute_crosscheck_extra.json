@@ -1,0 +1,12 @@
+{
+ "p4_binary": {
+  "supports_sampled": 150,
+  "checks": 600,
+  "mismatches": 0
+ },
+ "p3_multiclass": {
+  "supports_sampled": 150,
+  "checks": 600,
+  "mismatches": 0
+ }
+}

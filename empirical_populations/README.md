@@ -10,12 +10,14 @@ finite empirical populations built from public UCI datasets.
 | `exact_rough.py` | exact discernibility structure, clutter, reduct family and core; two independent routes, cross-checked |
 | `validation.py` | route-equivalence and recovery-characterisation self-tests |
 | `run_screening.py` | downloads and preprocesses the 20 candidate datasets, applies the realisability (Assumption 2) and feasibility gates |
-| `run_population_truth.py` | records the exact structure of every accepted population (Table 3) |
-| `run_recovery.py` | IID sampling with replacement; recovery thresholds and the Table 3 summary |
+| `run_population_truth.py` | records the exact structure of every accepted population (Table 4) |
+| `run_recovery.py` | IID sampling with replacement; recovery thresholds and the Table 4 summary |
 | `run_certificate_analysis.py` | minimal recovery certificates (Section 5.5, "Certificates") |
 | `data/raw/` | the downloaded UCI files, cached |
 | `data/processed/` | preprocessed tables, metadata, and recorded population truth, one triple per accepted dataset |
 | `results/` | raw aggregate CSVs, as reported in the paper |
+| `protocol/` | the screening plan, preprocessing specification and computational budget, fixed before any data were downloaded |
+| `data/hashes/` | SHA-256 checksums: `prereg.json` records the three protocol documents at the time they were frozen (2026-09-12T05:54:08Z); `processed.json` and `truth.json` record the processed tables and the population truths |
 
 ## Run
 
@@ -31,7 +33,7 @@ python3 run_certificate_analysis.py
 All seven accepted populations are already screened and their structure recorded in
 `data/processed/`; `run_screening.py --offline` reproduces this from the cached raw files
 without any network access. `run_recovery.py` reproduces `results/recovery_results.csv`,
-`threshold_results.csv` and `recovery_summary.csv` (Table 3); it accepts `--reps` and
+`threshold_results.csv` and `recovery_summary.csv` (Table 4); it accepts `--reps` and
 `--reps-refine` to control the Monte Carlo budget, and defaults to the values used for the
 reported numbers.
 

@@ -1,4 +1,4 @@
-"""Record the exact Pawlak structure of every accepted population (Section 5.5, Table 3).
+"""Record the exact Pawlak structure of every accepted population (Section 5.5, Table 4).
 
 For every dataset passing the realisability screen and the feasibility budget, compute the
 exact discernibility structure, the exact complete reduct family, and the exact core; record

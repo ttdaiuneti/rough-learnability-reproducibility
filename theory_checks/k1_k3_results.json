@@ -1,0 +1,119 @@
+{
+ "seed": 20260915,
+ "smoke": false,
+ "configs": [
+  {
+   "config": "p3_binary",
+   "p": 3,
+   "labels": [
+    0,
+    1
+   ],
+   "support_sizes": [
+    2,
+    5
+   ],
+   "nmax": 8,
+   "supports": 3052,
+   "mass_vectors": 9156,
+   "k1_cases": 73248,
+   "k1_violations": 0,
+   "min_err_over_lower_fam": 1.000000000000006,
+   "max_err_over_upper_fam": 1.0,
+   "min_err_over_lower_core": 1.000000000000006,
+   "max_err_over_upper_core": 1.0,
+   "lemma1_iii_violations": 0,
+   "ordering_violations": 0,
+   "empty_core_nonzero_error": 0,
+   "k2_checks": 12784,
+   "k2_violations": 0,
+   "k2_twopoint_checks": 142528,
+   "k2_twopoint_violations": 0,
+   "k3_supports_with_core": 2820,
+   "k3_supports_admitting_cp_cover": 348,
+   "k3_structure_checks": 768,
+   "k3_checks": 12288,
+   "k3_violations": 0,
+   "brute_crosschecks": 400,
+   "brute_mismatches": 0,
+   "seconds": 23.1
+  },
+  {
+   "config": "p4_binary",
+   "p": 4,
+   "labels": [
+    0,
+    1
+   ],
+   "support_sizes": [
+    2,
+    4
+   ],
+   "nmax": 6,
+   "supports": 29080,
+   "mass_vectors": 29080,
+   "k1_cases": 174480,
+   "k1_violations": 0,
+   "min_err_over_lower_fam": 1.000000015625,
+   "max_err_over_upper_fam": 1.0,
+   "min_err_over_lower_core": 1.000000015625,
+   "max_err_over_upper_core": 1.0,
+   "lemma1_iii_violations": 0,
+   "ordering_violations": 0,
+   "empty_core_nonzero_error": 0,
+   "k2_checks": 111584,
+   "k2_violations": 0,
+   "k2_twopoint_checks": 344208,
+   "k2_twopoint_violations": 0,
+   "k3_supports_with_core": 19024,
+   "k3_supports_admitting_cp_cover": 7872,
+   "k3_structure_checks": 23040,
+   "k3_checks": 138240,
+   "k3_violations": 0,
+   "brute_crosschecks": 0,
+   "brute_mismatches": 0,
+   "seconds": 59.1
+  },
+  {
+   "config": "p3_multiclass",
+   "p": 3,
+   "labels": [
+    0,
+    1,
+    2
+   ],
+   "support_sizes": [
+    2,
+    4
+   ],
+   "nmax": 6,
+   "supports": 6972,
+   "mass_vectors": 6972,
+   "k1_cases": 41832,
+   "k1_violations": 0,
+   "min_err_over_lower_fam": 1.000000021255846,
+   "max_err_over_upper_fam": 1.0,
+   "min_err_over_lower_core": 1.000000021255846,
+   "max_err_over_upper_core": 1.0,
+   "lemma1_iii_violations": 0,
+   "ordering_violations": 0,
+   "empty_core_nonzero_error": 0,
+   "k2_checks": 28416,
+   "k2_violations": 0,
+   "k2_twopoint_checks": 82926,
+   "k2_twopoint_violations": 0,
+   "k3_supports_with_core": 6204,
+   "k3_supports_admitting_cp_cover": 1260,
+   "k3_structure_checks": 3600,
+   "k3_checks": 21600,
+   "k3_violations": 0,
+   "brute_crosschecks": 0,
+   "brute_mismatches": 0,
+   "seconds": 12.8
+  }
+ ],
+ "violations": [],
+ "total_violations": 0,
+ "verdict": "PASS",
+ "seconds": 95.0
+}

@@ -1,0 +1,20 @@
+=== p = 3, all 6544 structures with |S| >= 2 ===
+V1 sufficiency <=> transversal: 0 violations
+V2 Tr_min(H) = Tr_min(clutter): 0 violations
+V3 CORE = singleton edges (of H and of clutter): 0 violations
+V4 blocker duality b(b(C)) = C on all 19 clutters, p = 3: 0 violations
+V4 blocker duality b(b(C)) = C on all 167 clutters, p = 4: 0 violations
+V4 R determines the clutter (p = 3): 0 violations
+V5 every clutter realizable by the explicit 2-class binary construction, p = 3: 18 clutters, 0 failures
+V5 every clutter realizable by the explicit 2-class binary construction, p = 4: 166 clutters, 0 failures
+V6 full-cube rigidity (|R| = 1, R = {CORE} = relevant variables), p = 3: 254 non-constant functions, 0 violations
+V6 full-cube rigidity (|R| = 1, R = {CORE} = relevant variables), p = 4: 65534 non-constant functions, 0 violations
+V7 ADDITION THEOREM, p = 3 (all |S| >= 2): TP=896 TN=33856 FP=0 FN=0
+V7 ADDITION THEOREM, p = 4 (2 <= |S| <= 4): TP=176192 TN=652608 FP=0 FN=0
+V8 clutters (p = 3) whose relabel-outcome signature is NOT determined by the clutter: 16 of 19 multi-instance clutters
+    example clutter []: support ((0, 0, 0), (0, 0, 1)) vs ((0, 0, 0), (0, 0, 1))
+
+=== V9: three-population class ===
+  P0 labels=(0, 0, 1, 0): clutter=[['A'], ['B', 'C']] R=[['A', 'B'], ['A', 'C']] CORE=['A']
+  P1 labels=(0, 0, 1, 1): clutter=[['A']] R=[['A']] CORE=['A']
+  P2 labels=(0, 1, 0, 1): clutter=[['C']] R=[['C']] CORE=['C']

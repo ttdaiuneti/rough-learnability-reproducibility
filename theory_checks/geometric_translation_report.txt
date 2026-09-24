@@ -1,0 +1,55 @@
+=== p = 3 (all |S| >= 2): 6544 structures ===
+CJ1 PT1 <=> (G1)&(G2): 0 violations
+vulnerable structures (P in U): 664 (10.1%), immune: 5880
+CJ2 sparse-cylinder sufficient condition: TP=0 FP=0 (FP must be 0)
+CJ3 'unique reduct + sufficient core => immune': FALSIFIED, counterexample (((0, 0, 0), (0, 0, 1)), [0, 0])
+CJ5 does the invariant vector separate vulnerable from immune? profiles=40, MIXED profiles (both outcomes)=6 -> NO separation
+      mixed profile (2, 1, 0, 0, True, True): vulnerable=48 immune=8
+      mixed profile (3, 1, 0, 0, True, True): vulnerable=64 immune=48
+      mixed profile (4, 1, 0, 0, True, True): vulnerable=16 immune=124
+      mixed profile (4, 1, 1, 1, True, True): vulnerable=144 immune=180
+      mixed profile (4, 2, 1, 0, False, True): vulnerable=48 immune=24
+      mixed profile (5, 1, 1, 1, True, True): vulnerable=48 immune=288
+CJ6 'only reduct is the full attribute set => immune': 2290 such structures, 0 violations
+CJ4 immune structures with incomplete support: 5624
+    profile (|S|, |R|, min|R|, |core|, core_sufficient, all_reduct_projections_full) -> count
+      (2, 1, 0, 0, True, True) -> 8
+      (3, 1, 0, 0, True, True) -> 48
+      (3, 1, 2, 2, True, False) -> 48
+      (3, 2, 2, 1, False, False) -> 48
+      (4, 1, 0, 0, True, True) -> 124
+      (4, 1, 1, 1, True, True) -> 180
+      (4, 1, 2, 2, True, False) -> 192
+      (4, 1, 2, 2, True, True) -> 156
+      (4, 1, 3, 3, True, False) -> 64
+      (4, 2, 1, 0, False, True) -> 24
+      (4, 2, 2, 1, False, False) -> 96
+      (4, 2, 2, 1, False, True) -> 60
+      (4, 3, 2, 0, False, True) -> 16
+      (5, 1, 0, 0, True, True) -> 112
+
+=== p = 4 (2 <= |S| <= 5): 173856 structures ===
+CJ1 PT1 <=> (G1)&(G2): 0 violations
+vulnerable structures (P in U): 144304 (83.0%), immune: 29552
+CJ2 sparse-cylinder sufficient condition: TP=1360 FP=0 (FP must be 0)
+CJ3 'unique reduct + sufficient core => immune': FALSIFIED, counterexample (((0, 0, 0, 0), (0, 0, 0, 1)), [0, 0])
+CJ5 does the invariant vector separate vulnerable from immune? profiles=61, MIXED profiles (both outcomes)=4 -> NO separation
+      mixed profile (4, 1, 0, 0, True, True): vulnerable=3560 immune=80
+      mixed profile (4, 1, 1, 1, True, True): vulnerable=5568 immune=32
+      mixed profile (5, 1, 0, 0, True, True): vulnerable=7616 immune=1120
+      mixed profile (5, 1, 1, 1, True, True): vulnerable=19840 immune=768
+CJ6 'only reduct is the full attribute set => immune': 800 such structures, 0 violations
+CJ4 immune structures with incomplete support: 29552
+    profile (|S|, |R|, min|R|, |core|, core_sufficient, all_reduct_projections_full) -> count
+      (4, 1, 0, 0, True, True) -> 80
+      (4, 1, 1, 1, True, True) -> 32
+      (4, 1, 3, 3, True, False) -> 512
+      (4, 2, 3, 2, False, False) -> 768
+      (5, 1, 0, 0, True, True) -> 1120
+      (5, 1, 1, 1, True, True) -> 768
+      (5, 1, 3, 3, True, False) -> 11392
+      (5, 1, 4, 4, True, False) -> 800
+      (5, 2, 3, 2, False, False) -> 12288
+      (5, 3, 3, 1, False, False) -> 1664
+      (5, 4, 3, 0, False, False) -> 128
+

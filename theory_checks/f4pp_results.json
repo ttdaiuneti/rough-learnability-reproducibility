@@ -1,0 +1,54 @@
+{
+ "configs": [
+  {
+   "p": 3,
+   "labels": [
+    0,
+    1
+   ],
+   "sizes": [
+    2,
+    5
+   ],
+   "cases": 12656,
+   "lhs_true": 336,
+   "mismatches": 0,
+   "c1_without_core_equal": 0,
+   "examples": []
+  },
+  {
+   "p": 4,
+   "labels": [
+    0,
+    1
+   ],
+   "sizes": [
+    2,
+    4
+   ],
+   "cases": 74368,
+   "lhs_true": 9664,
+   "mismatches": 0,
+   "c1_without_core_equal": 0,
+   "examples": []
+  },
+  {
+   "p": 3,
+   "labels": [
+    0,
+    1,
+    2
+   ],
+   "sizes": [
+    2,
+    4
+   ],
+   "cases": 23664,
+   "lhs_true": 1152,
+   "mismatches": 0,
+   "c1_without_core_equal": 0,
+   "examples": []
+  }
+ ],
+ "verdict": "PASS"
+}

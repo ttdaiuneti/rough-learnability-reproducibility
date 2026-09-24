@@ -1,0 +1,13 @@
+{
+ "instances": 10344,
+ "nu_equal_checks": 20688,
+ "const_checks": 20688,
+ "order_checks": 10344,
+ "upper_checks": 312016,
+ "lower_constructions": 17575,
+ "pair_formula_checks": 10344,
+ "sharp_const_checks": 175098,
+ "thm14_checks": 4200,
+ "violations": [],
+ "n_violations": 0
+}

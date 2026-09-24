@@ -1,0 +1,74 @@
+==============================================================================
+v2 VERIFICATION GATE --- locked_spec_v2.md Section 18
+==============================================================================
+
+--- G0: required output block ---
+
+P0 reducts = {(A,B), (A,C)}
+P0 core = {A}
+P1 reducts = {(A)}
+P1 core = {A}
+P2 reducts = {(C)}
+P2 core = {C}
+
+core functional nonconstant on the class: True
+reduct-family functional nonconstant on the class: True
+on the two-point subclass {P0,P1} the core is CONSTANT: True (this is the v1 degeneracy the three-population class repairs)
+on the two-point subclass {P0,P1} the FAMILY differs: True (so the family estimator must solve the testing problem of Section 11)
+
+--- G1: P0/P1 exact empirical-core recovery = 1 - 2(3/4)^n + (1/2)^n ---
+n = 1..20, populations P0 and P1: 40 exact polynomial identities checked, 0 mismatch
+    (identity holds as a polynomial in eps, i.e. uniformly in eps, and the total observed-set mass is exactly 1)
+    n = 5: recovery = 285/512 at eps = 1/10, claim = 285/512
+
+--- G2: labeled-space exact testing risk = (1/2)(1-eps)^n ---
+    (computed on the LABELED observation space; computing overlap on atom indices
+     instead is the v1 checker bug recorded in D0-D3/proof_audit.md)
+n = 1..6: TV computed two independent ways (1 - overlap, and (1/2)*L1) against 1 - (1-eps)^n; equal-prior risk against (1/2)(1-eps)^n: 0 mismatch
+    n = 3: risk = 1/2*e^0 + -3/2*e^1 + 3/2*e^2 + -1/2*e^3
+
+--- G3: uniform three-population core bound 2(3/4)^n on 0 < eps <= 1/4 ---
+n = 1..20, all 3 populations, 110 exact rational eps in (0, 1/4]: 0 violations of sup_P P^n{core_hat != CORE_P} <= 2(3/4)^n
+    worst ratio error/bound = 0.999850 at (n, population, eps) = (20, 'P0', Fraction(1, 4))
+    P2 exact core error = (3/4)^n + (1/2+eps)^n - (1/4+eps)^n: 0 mismatch over n = 1..20
+
+--- G4: PT1 on the T5 support change ---
+    base support ((0, 0, 0), (0, 0, 1), (1, 0, 0)) labels (0,0,1): R = {(A)}, CORE = {A}
+    add z = (1, 1, 1) with label 0 (-> P0): new edges [['B', 'C']]; PT1 A1=True A2=True => predicted True; actual core-preserved-and-family-changed = True (R -> {(A,B), (A,C)}, CORE -> {A})
+    add z = (1, 1, 1) with label 1 (-> P1): new edges [['A', 'B'], ['A', 'B', 'C']]; PT1 A1=True A2=False => predicted False; actual core-preserved-and-family-changed = False (R -> {(A)}, CORE -> {A})
+    PT1 prediction vs brute force on the T5 transition: 0 mismatch
+
+--- G5: PT1 <=> (G1)&(G2) on exhaustive domains ---
+    p = 3 (all |S| >= 2): 6544 structures, 34752 atom additions, 0 violations of PT1 <=> (G1)&(G2)
+    p = 4 (2 <= |S| <= 4): 34080 structures, 828800 atom additions, 0 violations of PT1 <=> (G1)&(G2)
+
+--- G6: identical minimax conventions for core and family ---
+    class used by both targets      : P0, P1, P2  (same tuple object: True)
+    delta convention for both       : n(delta) = min{n >= 1 : risk_n <= delta}, one shared implementation n_star()
+    estimator information for both  : the labeled sample only (core via the plug-in empirical core; family via a test between P0 and P1 on the labeled space)
+    core risk is an UPPER bound (an explicit estimator), family risk is a LOWER bound (all estimators) -- the separation is therefore in the right direction
+
+    delta   eps         n_core(sup plug-in)  n_core(spec bound)  n_family(lower)   ratio
+    0.01    0.1         19                   19                  38                2.0x
+    0.01    0.01        19                   19                  390               20.5x
+    0.01    0.001       19                   19                  3911              205.8x
+    0.01    0.0001      19                   19                  39119             2058.9x
+    n_core is bounded uniformly in eps, n_family grows like log(1/delta)/eps; ratio strictly increasing as eps -> 0: True
+
+--- S1 (supporting, not gating): a in CORE_P  <=>  tau_a > 0 ---
+    3 populations x 3 attributes x 3 values of eps: 0 violations
+
+==============================================================================
+  PASS  G0 required block (Sec 8/18)
+  PASS  G0b class nontrivial for core and family
+  PASS  G1 P0/P1 exact core identity (Sec 10/18.1)
+  PASS  G2 exact labeled testing risk (Sec 11/18.2)
+  PASS  G3 uniform core bound (Sec 10/18.3)
+  PASS  G4 PT1 on T5 support change (Sec 6/18.4)
+  PASS  G5 PT1 <=> (G1)&(G2) (Sec 7/18.5)
+  PASS  G6 identical minimax conventions (Sec 9/12/18.6)
+  PASS  S1 tau_a characterisation (Sec 3, supporting)
+
+  v2 GATE: PASS (8/8 gating items)
+  Section 18 satisfied: the primary experiments are unblocked.
+==============================================================================

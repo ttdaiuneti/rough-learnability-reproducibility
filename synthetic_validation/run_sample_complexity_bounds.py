@@ -1,4 +1,4 @@
-"""Deterministic sample-complexity separation (Theorem 9 and Table 2 of the paper).
+"""Deterministic sample-complexity separation (Theorem 9 and Table 3 of the paper).
 
 Deterministic: no Monte Carlo anywhere in this stage. It evaluates
 
@@ -56,7 +56,7 @@ def slope(df, delta, eps_max=1e-2):
 
 
 def table_delta001(df):
-    """The reduced table at delta = 0.01 reported as Table 2 of the paper."""
+    """The reduced table at delta = 0.01 reported as Table 3 of the paper."""
     s = df[(df.delta == 0.01) & (df.eps.isin(TABLE_EPS))].sort_values("eps", ascending=False)
     t = s[["eps", "n_core_ub", "n_family_lb", "Q", "small_eps_approx",
            "rel_approx_error"]].copy()

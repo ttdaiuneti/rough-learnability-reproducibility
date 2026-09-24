@@ -166,7 +166,7 @@ def thresholds(df, truth_tbl):
 
 
 def summary_table(thr, truth_tbl):
-    """The per-dataset summary reported as Table 3 of the paper."""
+    """The per-dataset summary reported as Table 4 of the paper."""
     rows = []
     for slug, g in thr.groupby("dataset"):
         core = g[g.target == "core"].iloc[0]

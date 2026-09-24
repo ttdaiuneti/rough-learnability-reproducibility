@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS",
+  "violations": 0,
+  "counts": {
+    "supports": 6484,
+    "mass_assignments": 12968,
+    "separating_classes": 334,
+    "risk_checks": 4008,
+    "deletion_radius_checks": 12968,
+    "core_formula_checks": 7800
+  },
+  "scope": "All labelled supports in listed finite ranges; two mass vectors per support; n=1..4; all minimum changing deletions; post-hoc."
+}
