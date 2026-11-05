@@ -2,8 +2,8 @@
 
 Code and data for the computational results reported in:
 
-> Thanh Dai Tran. *Statistical Identification of Rough-Set Structures: Core-Family Separation
-> and Witness-Cover Rates.*
+> Thanh Dai Tran. *Recovering the Reduct Family and the Core from Random Samples: Minimax Rates
+> and an Unbounded Separation.*
 
 This package contains the code and data needed to reproduce every number in Section 5 and Appendix B of the
 paper, and the exact finite checks of the theoretical results that are summarised in Table 5
