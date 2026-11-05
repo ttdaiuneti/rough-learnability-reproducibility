@@ -20,9 +20,9 @@ used to typeset the manuscript.
   bounds of Theorem 9, and the experiment protocol.
 - **`empirical_populations/`** covers Section 5.2. It contains the screening, the exact
   structure computation, and the sampling-with-replacement recovery curves on finite empirical
-  populations built from public UCI datasets. It also contains the pre-registered screening
+  populations built from public UCI datasets. It also contains the screening
   plan, the preprocessing specification and the computational budget, together with their
-  checksums.
+  checksums. These three documents were fixed before the data were downloaded (internally, not in a public registry).
 
 Each subdirectory has its own `README.md` with the exact commands to reproduce its results,
 and its own `requirements.txt`. Checksums of the distributed outputs are in the `SHA256SUMS`
