@@ -1,4 +1,4 @@
-"""Validation layer for the synthetic experiments (Section 5.1 and Appendix B of the paper).
+"""Validation layer for the synthetic experiments (Section 7.1 and Appendix B of the paper).
 
 Three jobs, kept separate:
 

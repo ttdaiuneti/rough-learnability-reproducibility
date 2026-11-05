@@ -1,4 +1,4 @@
-# Synthetic validation (Section 5.1 and Appendix B)
+# Synthetic validation (Section 7.1 and Appendix B)
 
 Exact and Monte Carlo checks of the closed-form results on the three-population construction
 of Section 4.1 (`P_0`, `P_1`, `P_2`), plus the deterministic sample-complexity bounds of

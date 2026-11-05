@@ -1,10 +1,10 @@
-"""Exact Pawlak reduction structures for finite empirical populations (Section 5.2 of the paper).
+"""Exact Pawlak reduction structures for finite empirical populations (Section 7.2 of the paper).
 
 Everything is exact: no heuristic reduct search, no top-k, no random subset search, no
 single-reduct surrogate. Attribute subsets are bitmasks over `p <= 15` bits, so the
 minimal-transversal step is a complete sweep of at most 32 768 subsets.
 
-Objects (paper Sections 3.2 and 4.7):
+Objects (paper Sections 3.2 and 5.1):
   support        distinct labeled condition vectors of the processed dataset, with masses
                  P_N(x, y) = (row multiplicity) / N
   edges          D(u, v) = {a : u_a != v_a} for bichromatic pairs, as bitmasks

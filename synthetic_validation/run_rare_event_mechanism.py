@@ -1,4 +1,4 @@
-"""The rare-event mechanism behind the core-family separation (Section 4.1, 5.3 of the paper).
+"""The rare-event mechanism behind the core-family separation (Section 4.1 and Appendix B.2 of the paper).
 
 Split in two:
 

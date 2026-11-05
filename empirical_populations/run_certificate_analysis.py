@@ -1,4 +1,4 @@
-"""Experimental recovery certificates for the finite empirical populations (Section 5.2).
+"""Experimental recovery certificates for the finite empirical populations (Section 7.2).
 
 The synthetic construction of Section 4.1 shows that exact recovery is equivalent to having
 observed a specific set of support atoms. This script asks whether an analogous description

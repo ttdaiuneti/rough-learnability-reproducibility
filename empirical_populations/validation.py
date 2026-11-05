@@ -1,4 +1,4 @@
-"""Validation layer for the finite empirical population study (Section 5.2 of the paper).
+"""Validation layer for the finite empirical population study (Section 7.2 of the paper).
 
 Three jobs, kept separate:
 

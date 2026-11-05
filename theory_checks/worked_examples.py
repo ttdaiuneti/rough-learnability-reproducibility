@@ -1,4 +1,4 @@
-"""Numbers of the worked examples in Section 4 (Examples 1-4), computed exactly.
+"""Numbers of the worked examples in Sections 4–6 (Examples 1-4), computed exactly.
 
 Structures come from the discernibility sets of the labelled support; witness-graph covers are
 enumerated; probabilities are exact rationals, converted to floats only for printing and for

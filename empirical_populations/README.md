@@ -1,4 +1,4 @@
-# Finite empirical populations (Section 5.2)
+# Finite empirical populations (Section 7.2)
 
 Screening, exact structure computation, and sampling-with-replacement recovery curves on the
 finite empirical populations built from public UCI datasets.
@@ -12,7 +12,7 @@ finite empirical populations built from public UCI datasets.
 | `run_screening.py` | downloads and preprocesses the 20 candidate datasets, applies the realisability (Assumption 2) and feasibility gates |
 | `run_population_truth.py` | records the exact structure of every accepted population (Table 4) |
 | `run_recovery.py` | IID sampling with replacement; recovery thresholds and the Table 4 summary |
-| `run_certificate_analysis.py` | minimal recovery certificates (Section 5.2, "Certificates") |
+| `run_certificate_analysis.py` | minimal recovery certificates (Section 7.2, "Certificates") |
 | `data/raw/` | the downloaded UCI files, cached |
 | `data/processed/` | preprocessed tables, metadata, and recorded population truth, one triple per accepted dataset |
 | `results/` | raw aggregate CSVs, as reported in the paper |
